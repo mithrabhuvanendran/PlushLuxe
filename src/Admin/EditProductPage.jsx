@@ -177,7 +177,7 @@ const EditProductPage = () => {
             <div className="flex gap-4 mt-4">
               {productData.images.map((image, index) => (
                 <div key={index}>
-                <img src={image.url.startsWith("https") ? image.url : `http://localhost:9000${image.url}`} alt={image.altText || "Product Image"} className="w-20 h-20 object-cover rounded-md shadow-md"/>
+                <img src={image.url.startsWith("https") ? image.url : `${import.meta.env.VITE_URL}${image.url}`} alt={image.altText || "Product Image"} className="w-20 h-20 object-cover rounded-md shadow-md"/>
                 </div>
               ))}
             </div>

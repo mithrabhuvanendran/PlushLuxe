@@ -62,7 +62,7 @@ const OrderConfirmation = () => {
                 >
                   <div className="flex items-center gap-2">
                     <img
-                      src={`http://localhost:9000${item.image}`}
+                      src={`${import.meta.env.VITE_URL}${item.image}`}
                       alt={item.name}
                       className="w-16 h-16 object-cover rounded-md mr-4"
                     />

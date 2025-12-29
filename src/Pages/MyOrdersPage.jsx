@@ -48,7 +48,7 @@ const MyOrdersPage = () => {
                     >
                       <td className="py-2 px-2 sm:py-4 sm:px-4">
                         <img
-                          src={`http://localhost:9000${order.orderItems[0].image}`}
+                          src={`${import.meta.env.VITE_URL}${order.orderItems[0].image}`}
                           alt={order.orderItems[0].name}
                           className="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded-lg"
                         />

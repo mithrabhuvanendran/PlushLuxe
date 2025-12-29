@@ -63,7 +63,7 @@ const NewArrivals = () => {
             >
               <NavLink to={`/product/${product._id}`} className="block">
                 <img
-                  src={`http://localhost:9000${product.images[0].url}`}
+                  src={`${import.meta.env.VITE_URL}${product.images[0].url}`}
                   alt={product.images[0].altText}
                   className="w-full h-[500px] object-cover rounded-lg"
                 />

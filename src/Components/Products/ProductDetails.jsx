@@ -35,7 +35,7 @@ const ProductDetails = ({ productId }) => {
   useEffect(() => {
     if (selectedProduct?.images?.length > 0) {
       const imageURL = selectedProduct.images[0].url
-      setMainImage(`http://localhost:9000${imageURL}`);
+      setMainImage(`${import.meta.env.VITE_URL}${imageURL}`);
     }
   }, [selectedProduct]); // React runs useEffect once after first render and runs only when selectedProduct changes i.e. when a new object is added
 
@@ -93,9 +93,9 @@ const ProductDetails = ({ productId }) => {
                 {selectedProduct.images.map((image, index) => (
                   <img
                     key={index}
-                    src={`http://localhost:9000${image.url}`}
+                    src={`${import.meta.env.VITE_URL}${image.url}`}
                     alt={image.altText}
-                    onClick={() => setMainImage(`http://localhost:9000${image.url}`)} // updates the mainImage when clicked
+                    onClick={() => setMainImage(`${import.meta.env.VITE_URL}${image.url}`)} // updates the mainImage when clicked
                     className="w-20 h-20 object-cover rounded-lg cursor-pointer border"
                   />
                 ))}
@@ -116,9 +116,9 @@ const ProductDetails = ({ productId }) => {
                 {selectedProduct.images.map((image, index) => (
                   <img
                     key={index}
-                    src={`http://localhost:9000${image.url}`}
+                    src={`${import.meta.env.VITE_URL}${image.url}`}
                     alt={image.altText}
-                    onClick={() => setMainImage(`http://localhost:9000${image.url}`)}
+                    onClick={() => setMainImage(`${import.meta.env.VITE_URL}${image.url}`)}
                     className="w-20 h-20 object-cover rounded-lg cursor-pointer border"
                   />
                 ))}

@@ -91,7 +91,7 @@ const OrderDetailsPage = () => {
                     >
                       <td className="py-2 px-4 flex items-center">
                         <img
-                          src={`http://localhost:9000${item.image}`}
+                          src={`${import.meta.env.VITE_URL}${item.image}`}
                           alt={item.name}
                           className="w-12 h-12 object-cover rounded-lg mr-4"
                         />

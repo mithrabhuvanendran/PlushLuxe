@@ -240,7 +240,7 @@ const Checkout = () => {
                 >
                   <div className="flex items-start">
                     <img
-                      src={`http://localhost:9000${product.image}`}
+                      src={`${import.meta.env.VITE_URL}${product.image}`}
                       alt={product.name}
                       className="w-20 h-24 object-cover mr-4"
                     />

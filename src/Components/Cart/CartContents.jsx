@@ -36,7 +36,7 @@ const CartContents = ({cart, userId, guestId}) => {
           <div key={product.productId} className="flex items-start justify-between py-4 border-b">
             <div>
               <img
-                src={`http://localhost:9000${product.image}`}
+                src={`${import.meta.env.VITE_URL}${product.image}`}
                 alt=""
                 className="w-20 h-24 object-cover mr-4 rounded"
               />
