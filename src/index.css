@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+#root {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.slick-arrow::before {
+    /* color: black !important; */
+    /* font-size: 32px; */
+
+}
+
+.slick-prev, .slick-next {
+    z-index: 50;
+}
+
+.slick-prev::before, .slick-next::before {
+    font-size: 32px !important;
+    color: #d73b5a !important;
+    /* padding-right: 10px !important; */
+
+}
