@@ -11,8 +11,8 @@ const DeleteOrder = async (req, res) => {
       res.status(404).send({ msg: "Order not found." });
     }
   } catch (error) {
-    console.log(error);
-    res.status(500).send("Server error");
+    // console.log(error);
+    res.status(500).send({message: error.message});
   }
 };
 

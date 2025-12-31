@@ -64,8 +64,8 @@ const MergeCart = async (req, res) => {
         res.status(404).send({msg: "Guest cart not found."})
     }
   } catch (error) {
-    console.log(error);
-    res.status(500).send("Server error");
+    // console.log(error);
+    res.status(500).send({message: error.message});
   }
 };
 

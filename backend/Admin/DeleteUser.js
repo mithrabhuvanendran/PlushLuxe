@@ -11,8 +11,8 @@ const DeleteUser = async (req, res) => {
       return res.status(404).send({ msg: "User not found." });
     }
   } catch (error) {
-    console.log(error);
-    res.status(500).send("Server error");
+    // console.log(error);
+    res.status(500).send({message: error.message});
   }
 };
 

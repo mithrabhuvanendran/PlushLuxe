@@ -80,7 +80,7 @@ useEffect(() => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full p-2 border rounded"
+                className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-[#d73b5a]"
                 required 
               />
             </div>
@@ -93,7 +93,7 @@ useEffect(() => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full p-2 border rounded"
+                className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-[#d73b5a]"
                 required 
               />
             </div>
@@ -106,7 +106,7 @@ useEffect(() => {
                 name="password"
                 value={formData.password}
                 onChange={handleChange}
-                className="w-full p-2 border rounded"
+                className="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-[#d73b5a]"
                 required 
               />
             </div>
@@ -117,7 +117,7 @@ useEffect(() => {
                     <option value="admin">Admin</option>
                 </select>
             </div>
-            <button type="submit" className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">Add User</button>
+            <button type="submit" className="bg-green-500 text-white py-2 px-4 rounded hover:bg-[#d73b5a]">Add User</button>
           </form>
         </div>
 

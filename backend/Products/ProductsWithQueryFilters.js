@@ -18,7 +18,7 @@ const ProductsWithQueryFilters = async (req, res) => {
       limit,
     } = req.query;
 
-    console.log(req.query);
+    // console.log(req.query);
 
     let query = {};
 
@@ -82,7 +82,7 @@ const ProductsWithQueryFilters = async (req, res) => {
         }
     }
 
-    console.log(query);
+    // console.log(query);
 
     // Fetch products and apply sorting and limit
     let products = await Product.find(query).sort(sort).limit(Number(limit) || 0)

@@ -39,8 +39,8 @@ const FinalizeCheckout = async (req, res) => {
       return res.status(400).send({ msg: "Checkout is not paid." });
     }
   } catch (error) {
-    console.log(error);
-    res.status(500).send("Server error");
+    // console.log(error);
+    res.status(500).send({message: error.message});
   }
 };
 

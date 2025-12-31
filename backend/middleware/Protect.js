@@ -18,10 +18,10 @@ const Protect = async (req, res, next) => {
     try {
 
       const decoded = await jwt.verify(token, process.env.JWT_SECRET); // here the token is decoded to give the payload,which we created in Login
-      console.info(decoded);
+      // console.info(decoded);
 
       req.user = await User.findById(decoded._id).select("-password");
-      console.info(req.user);   
+      // console.info(req.user);   
       next();
     } catch (error) {
       res.status(400).send({ msg: "Not authorized, token failed." });

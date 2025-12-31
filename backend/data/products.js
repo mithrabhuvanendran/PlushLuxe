@@ -18,11 +18,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/oxford-shirt.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767175232/oxford-shirt_akbpb7.webp",
         altText: "Classic Oxford Button-Down Shirt Front View",
       },
       {
-        url: "/assets/images/oxford-shirt-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767185318/oxford-shirt-back_vballr.webp",
         altText: "Classic Oxford Button-Down Shirt Back View",
       },
     ],
@@ -46,11 +46,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/slim-fit.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767185378/slim-fit_taljbh.webp",
         altText: "Slim-Fit Stretch Shirt Front View",
       },
       {
-        url: "/assets/images/slim-fit-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767185380/slim-fit-back_ydodvw.webp",
         altText: "Slim-Fit Stretch Shirt Back View",
       },
     ],
@@ -74,11 +74,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/casual-denim.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767185426/casual-denim_goyk7m.webp",
         altText: "Casual Denim Shirt Front View",
       },
       {
-        url: "/assets/images/casual-denim-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767185427/casual-denim-back_ltql8k.webp",
         altText: "Casual Denim Shirt Back View",
       },
     ],
@@ -102,11 +102,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/printed-resort.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767185487/printed-resort_kxszhr.webp",
         altText: "Printed Resort Shirt Front View",
       },
       {
-        url: "/assets/images/printed-resort-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767185487/printed-resort-back_mvl4ll.webp",
         altText: "Printed Resort Shirt Back View",
       },
     ],
@@ -130,11 +130,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/slim-fit-easy-iron.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767186786/slim-fit-easy-iron_jpmkfw.webp",
         altText: "Slim-Fit Easy-Iron Shirt Front View",
       },
       {
-        url: "/assets/images/slim-fit-easy-iron-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767186801/slim-fit-easy-iron-back_s8ym1c.webp",
         altText: "Slim-Fit Easy-Iron Shirt Back View",
       },
     ],
@@ -158,11 +158,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/polo-tshirt.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767186871/polo-tshirt_um3m5c.webp",
         altText: "Polo T-Shirt Front View",
       },
       {
-        url: "/assets/images/polo-tshirt-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767186874/polo-tshirt-back_km4v1i.webp",
         altText: "Polo T-Shirt Back View",
       },
     ],
@@ -186,7 +186,7 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/oversized-tshirt.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767186948/oversized-tshirt_vup23t.webp",
         altText: "Oversized Graphic T-Shirt Front View",
       },
     ],
@@ -210,11 +210,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/regular-henley-shirt.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187022/regular-henley-shirt_nhwnnq.webp",
         altText: "Regular-Fit Henley Shirt Front View",
       },
       {
-        url: "/assets/images/regular-henley-shirt-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187024/regular-henley-shirt-back_nsrrcv.webp",
         altText: "Regular-Fit Henley Shirt Back View",
       },
     ],
@@ -238,11 +238,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/long-thermal-tee.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187079/long-thermal-tee_nafcho.jpg",
         altText: "Long-Sleeve Thermal Tee Front View",
       },
       {
-        url: "/assets/images/long-thermal-tee-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187081/long-thermal-tee-back_fecq91.jpg",
         altText: "Long-Sleeve Thermal Tee Back View",
       },
     ],
@@ -266,11 +266,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/crew-neck-tshirt.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187152/crew-neck-tshirt_lrtd1o.webp",
         altText: "V-Neck Classic T-Shirt Front View",
       },
       {
-        url: "/assets/images/crew-neck-tshirt-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187154/crew-neck-tshirt-back_ulh0rq.webp",
         altText: "V-Neck Classic T-Shirt Back View",
       },
     ],
@@ -294,11 +294,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/slim-fit-joggers.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187208/slim-fit-joggers_vejnpz.webp",
         altText: "Slim Fit Joggers Front View",
       },
       {
-        url: "/assets/images/slim-fit-joggers-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187210/slim-fit-joggers-back_fgqiaj.webp",
         altText: "Slim Fit Joggers Back View",
       },
     ],
@@ -322,11 +322,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/cargo-joggers.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187261/cargo-joggers_fztqcb.webp",
         altText: "Cargo Joggers Front View",
       },
       {
-        url: "/assets/images/cargo-joggers-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187263/cargo-joggers-back_h9hvj0.webp",
         altText: "Cargo Joggers Back View",
       },
     ],
@@ -350,11 +350,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/tapered-sweatpant.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187325/tapered-sweatpant_eag9fl.webp",
         altText: "Tapered Sweatpants Front View",
       },
       {
-        url: "/assets/images/tapered-sweatpant-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187328/tapered-sweatpant-back_chvkmn.webp",
         altText: "Tapered Sweatpants Back View",
       },
     ],
@@ -378,11 +378,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/denim-jean.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187385/denim-jean_v3mvyj.webp",
         altText: "Denim Jeans Front View",
       },
       {
-        url: "/assets/images/denim-jean-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187388/denim-jean-back_b3wqpy.webp",
         altText: "Denim Jeans Back View",
       },
     ],
@@ -406,11 +406,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/chino-pants.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187466/chino-pants_w69c5p.webp",
         altText: "Chino Pants Front View",
       },
       {
-        url: "/assets/images/chino-pants-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187469/chino-pants-back_sdnl2a.webp",
         altText: "Chino Pants Back View",
       },
     ],
@@ -434,11 +434,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/track-pants.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187521/track-pants_rkoows.webp",
         altText: "Track Pants Front View",
       },
       {
-        url: "/assets/images/track-pants-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187524/track-pants-back_y2a1jh.webp",
         altText: "Track Pants Back View",
       },
     ],
@@ -462,11 +462,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/slim-fit-trousers.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187581/slim-fit-trousers_ivodj5.webp",
         altText: "Slim Fit Trousers Front View",
       },
       {
-        url: "/assets/images/slim-fit-trousers-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187584/slim-fit-trousers-back_cag1rd.webp",
         altText: "Slim Fit Trousers Back View",
       },
     ],
@@ -490,11 +490,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/cargo-pants.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187635/cargo-pants_ismfht.webp",
         altText: "Cargo Pants Front View",
       },
       {
-        url: "/assets/images/cargo-pants-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187639/cargo-pants-back_uk1rd1.webp",
         altText: "Cargo Pants Back View",
       },
     ],
@@ -518,11 +518,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/relaxed-fit-sweatpants.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187686/relaxed-fit-sweatpants_vr0hoc.webp",
         altText: "Relaxed Fit Sweatpants Front View",
       },
       {
-        url: "/assets/images/relaxed-fit-sweatpants-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187690/relaxed-fit-sweatpants-back_htuerc.webp",
         altText: "Relaxed Fit Sweatpants Back View",
       },
     ],
@@ -546,11 +546,11 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "/assets/images/formal-pants.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187748/formal-pants_kkimzz.webp",
         altText: "Formal Dress Pants Front View",
       },
       {
-        url: "/assets/images/formal-pants-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187751/formal-pants-back_lrv6ul.webp",
         altText: "Formal Dress Pants Back View",
       },
     ],
@@ -574,11 +574,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/skinny-fit-jeans.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187839/skinny-fit-jeans_iddg8j.webp",
         altText: "High-Waist Skinny Jeans Front View",
       },
       {
-        url: "/assets/images/skinny-fit-jeans-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187843/skinny-fit-jeans-back_df3npl.webp",
         altText: "High-Waist Skinny Jeans Back View",
       },
     ],
@@ -602,11 +602,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/wide-leg-trousers.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187892/wide-leg-trousers_ewad8r.webp",
         altText: "Wide-Leg Trousers Front View",
       },
       {
-        url: "/assets/images/wide-leg-trousers-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187895/wide-leg-trousers-back_g36zsg.webp",
         altText: "Wide-Leg Trousers Back View",
       },
     ],
@@ -630,11 +630,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/stretch-leggings.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187952/stretch-leggings_kygd5z.webp",
         altText: "Stretch Leggings Front View",
       },
       {
-        url: "/assets/images/stretch-leggings-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767187956/stretch-leggings-back_dt0not.webp",
         altText: "Stretch Leggings Back View",
       },
     ],
@@ -658,11 +658,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/pleated-skirt.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188004/pleated-skirt_qorupi.webp",
         altText: "Pleated Midi Skirt Front View",
       },
       {
-        url: "/assets/images/pleated-skirt-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188008/pleated-skirt-back_gkma9v.webp",
         altText: "Pleated Midi Skirt Back View",
       },
     ],
@@ -686,11 +686,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/flared-pants.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188061/flared-pants_sqkjeh.webp",
         altText: "Flared Palazzo Pants Front View",
       },
       {
-        url: "/assets/images/flared-pants-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188066/flared-pants-back_gbfa2j.webp",
         altText: "Flared Palazzo Pants Back View",
       },
     ],
@@ -714,11 +714,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/high-rise-joggers.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188125/high-rise-joggers_r6sk4h.webp",
         altText: "High-Rise Joggers Front View",
       },
       {
-        url: "/assets/images/high-rise-joggers-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188129/high-rise-joggers-back_pxawjr.webp",
         altText: "High-Rise Joggers Back View",
       },
     ],
@@ -742,11 +742,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/paperbag-shorts.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188200/paperbag-shorts_a5swxt.jpg",
         altText: "Paperbag Waist Shorts Front View",
       },
       {
-        url: "/assets/images/paperbag-shorts-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188205/paperbag-shorts-back_wc94tc.jpg",
         altText: "Paperbag Waist Shorts Back View",
       },
     ],
@@ -770,11 +770,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/denim-shorts.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188275/denim-shorts_zkljl6.jpg",
         altText: "Stretch Denim Shorts Front View",
       },
       {
-        url: "/assets/images/denim-shorts-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188277/denim-shorts-back_pnucmo.jpg",
         altText: "Stretch Denim Shorts Back View",
       },
     ],
@@ -798,11 +798,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/culottes.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188395/culottes_v5zsiz.jpg",
         altText: "Culottes Front View",
       },
       {
-        url: "/assets/images/culottes-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188403/culottes-back_d0tmcy.jpg",
         altText: "Culottes Back View",
       },
     ],
@@ -826,11 +826,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/pleated-trousers.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188456/pleated-trousers_hf11l2.webp",
         altText: "Classic Pleated Trousers Front View",
       },
       {
-        url: "/assets/images/pleated-trousers-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188462/pleated-trousers-back_g9hsaz.webp",
         altText: "Classic Pleated Trousers Back View",
       },
     ],
@@ -854,11 +854,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/knitted-croptop.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188519/knitted-croptop_pqtbjq.webp",
         altText: "Knitted Cropped Top Front View",
       },
       {
-        url: "/assets/images/knitted-croptop-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188520/knitted-croptop-back_mu3z2j.webp",
         altText: "Knitted Cropped Top Back View",
       },
     ],
@@ -882,11 +882,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/boho-floral.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188568/boho-floral_wwzrqn.webp",
         altText: "Boho Floral Blouse Front View",
       },
       {
-        url: "/assets/images/boho-floral-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188574/boho-floral-back_o7kpia.webp",
         altText: "Boho Floral Blouse Back View",
       },
     ],
@@ -910,11 +910,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/casual-tshirt.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188640/casual-tshirt_frovi4.webp",
         altText: "Casual T-Shirt Front View",
       },
       {
-        url: "/assets/images/casual-tshirt-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188646/casual-tshirt-back_khtdgb.webp",
         altText: "Casual T-Shirt Back View",
       },
     ],
@@ -938,11 +938,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/off-shoulder-top.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188713/off-shoulder-top_hac9yu.webp",
         altText: "Off-Shoulder Top Front View",
       },
       {
-        url: "/assets/images/off-shoulder-top-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188719/off-shoulder-top-back_lamfbr.webp",
         altText: "Off-Shoulder Top Back View",
       },
     ],
@@ -966,11 +966,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/lace-cami-top.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188772/lace-cami-top_qx83pv.webp",
         altText: "Lace-Trimmed Cami Top Front View",
       },
       {
-        url: "/assets/images/lace-cami-top-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188777/lace-cami-top-back_ocuqoz.webp",
         altText: "Lace-Trimmed Cami Top Back View",
       },
     ],
@@ -994,11 +994,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/graphic-print.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188839/graphic-print_eeeusn.webp",
         altText: "Graphic Print Tee Front View",
       },
       {
-        url: "/assets/images/graphic-print-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188846/graphic-print-back_elickg.webp",
         altText: "Graphic Print Tee Back View",
       },
     ],
@@ -1022,11 +1022,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/ribbed-top.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188902/ribbed-top_uwxly8.webp",
         altText: "Ribbed Long-Sleeve Top Front View",
       },
       {
-        url: "/assets/images/ribbed-top-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188908/ribbed-top-back_oepjii.webp",
         altText: "Ribbed Long-Sleeve Top Back View",
       },
     ],
@@ -1050,11 +1050,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/ruffled-blouse.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188957/ruffled-blouse_irfjxy.webp",
         altText: "Ruffle-Sleeve Blouse Front View",
       },
       {
-        url: "/assets/images/ruffled-blouse-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767188964/ruffled-blouse-back_qvfkpn.webp",
         altText: "Ruffle-Sleeve Blouse Back View",
       },
     ],
@@ -1078,11 +1078,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/button-up-shirt.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767189024/button-up-shirt_pyzzo6.webp",
         altText: "Classic Button-Up Shirt Front View",
       },
       {
-        url: "/assets/images/button-up-shirt-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767189017/button-up-shirt_-back_mnv9vr.webp",
         altText: "Classic Button-Up Shirt Back View",
       },
     ],
@@ -1106,11 +1106,11 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "/assets/images/v-neck-top.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767189081/v-neck-top_pirxa9.webp",
         altText: "V-Neck Wrap Top Front View",
       },
       {
-        url: "/assets/images/v-neck-top-back.jpg",
+        url: "https://res.cloudinary.com/ddfhe3fan/image/upload/v1767189087/v-neck-top-back_xtv4uo.webp",
         altText: "V-Neck Wrap Top Back View",
       },
     ],

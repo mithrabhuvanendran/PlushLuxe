@@ -48,8 +48,8 @@ router.post("/", upload.single("image"), async (req, res) => {
     // Respond with the uploaded image URL
     return res.send({ imageUrl: result.secure_url });
   } catch (error) {
-    console.log(error);
-    return res.status(500).send("Server error");
+    // console.log(error);
+    return res.status(500).send({message: error.message});
   }
 });
 

@@ -41,12 +41,12 @@ const Login = () => {
         <div className="w-full md:w-1/2 flex flex-col justify-center items-center p-8 md:p-12">
           <form
             onSubmit={handleSubmit}
-            className="w-full max-w-md bg-white p-8 rounded-lg border shadow-sm"
+            className="w-full max-w-md bg-white p-8 rounded-lg border border-gray-100 shadow-sm"
           >
             <div className="flex justify-center mb-6">
-              <h2 className="text-xl font-medium">PlushLuxe</h2>
+              <h2 className="text-2xl font-medium text-[#d73b5a]">PlushLuxe</h2>
             </div>
-            <h2 className="text-2xl font-bold text-center mb-6">Hey there!</h2>
+            <h2 className="text-xl font-bold text-center mb-6">Hey there!</h2>
             <p className="text-center mb-6">
               Enter your username and password to login
             </p>
@@ -59,7 +59,7 @@ const Login = () => {
                 value={email}
                 placeholder="Enter an email"
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full p-2 border border-gray-300 rounded"
+                className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#d73b5a]"
               />
             </div>
             <div className="mb-4">
@@ -71,19 +71,19 @@ const Login = () => {
                 value={password}
                 placeholder="Enter a password"
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full p-2 border border-gray-300 rounded"
+                className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#d73b5a]"
               />
             </div>
 
             <button
               type="submit"
-              className="w-full bg-black text-white p-2 rounded-lg font-semibold hover:bg-gray-800 transition"
+              className="w-full bg-black text-white p-2 rounded-lg font-semibold hover:cursor-pointer hover:bg-gray-800 transition"
             >
               {loading ? "loading..." : "Sign In"}
             </button>
             <p className="mt-6 text-sm text-center">
               Don't have an account?
-              <Link to={`/register?redirect=${encodeURIComponent(redirect)}`} className="text-blue-500">
+              <Link to={`/register?redirect=${encodeURIComponent(redirect)}`} className="text-blue-500 hover:text-[#d73b5a]">
                 {" "}
                 Register
               </Link>

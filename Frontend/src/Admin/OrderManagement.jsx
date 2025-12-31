@@ -29,8 +29,8 @@ useEffect(() => {
 
   return (
     <>
-      <div className="max-w-7xl mx-auto p-6">
-        <h2 className="text-2xl font-bold mb-6">Product Management</h2>
+      <div className="w-full sm:max-w-7xl mx-auto py-6 px-2 sm:p-6">
+        <h2 className="text-2xl font-bold mb-6">Order Management</h2>
         <div className="overflow-x-auto shadow-md sm:rounded-lg">
           <table className="min-w-full text-left text-gray-500">
             <thead className="bg-gray-100 text-xs uppercase text-gray-700 ">

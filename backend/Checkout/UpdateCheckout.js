@@ -23,8 +23,8 @@ const UpdateCheckout = async (req, res) => {
         return res.status(400).send({msg: "Invalid Payment Status"})
     }
   } catch (error) {
-    console.log(error);
-    res.status(500).send("Server error");
+    // console.log(error);
+    res.status(500).send({message: error.message});
   }
 };
 

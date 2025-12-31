@@ -13,8 +13,8 @@ const UpdateUser = async (req, res) => {
     const updatedUser = await user.save();
     res.send({ msg: "User updated successfully", user: updatedUser });
   } catch (error) {
-    console.log(error);
-    res.status(500).send("Server error");
+    // console.log(error);
+    res.status(500).send({message: error.message});
   }
 };
 

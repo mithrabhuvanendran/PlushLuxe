@@ -57,8 +57,8 @@ const UpdateProduct = async (req, res) => {
     }
 
   } catch (err) {
-    console.info(err);
-    res.status(500).send({ msg: "Internal server error" });
+    // console.info(err);
+    res.status(500).send({message: err.message});
   }
 }
 

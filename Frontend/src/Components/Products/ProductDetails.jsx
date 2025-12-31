@@ -84,7 +84,7 @@ const ProductDetails = ({ productId }) => {
     <>
       {selectedProduct && (
         <div className="lg:px-12 xl:px-18">
-          <div className="px-0 pt-8 sm:p-8 ">
+          <div className="px-4 pt-8 sm:p-8 ">
             <div className="flex flex-col md:flex-row gap-5 ">
               {/* Left Thumbnails */}
               <div className="hidden md:flex flex-col gap-4">

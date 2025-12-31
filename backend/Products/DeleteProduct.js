@@ -11,8 +11,8 @@ const DeleteProduct = async (req, res) => {
         res.status(404).send({msg: "Product not found."})
     }
   } catch (err) {
-    console.info(err);
-    res.status(500).send({ msg: "Internal server error" });
+    // console.info(err);
+    res.status(500).send({message: err.message});
   }
 };
 

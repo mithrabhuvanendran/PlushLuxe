@@ -40,9 +40,9 @@ const Login = async (req, res) => {
       },
       token,
     });
-  } catch (err) {
-    console.info(err);
-    return res.status(500).send({ msg: "Internal server error" });
+  } catch (error) {
+    // console.info(err);
+    return res.status(500).send({message: error.message});
   }
 };
 

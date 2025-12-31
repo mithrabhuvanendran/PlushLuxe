@@ -27,13 +27,36 @@ const NewArrivals = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+
+    responsive: [
+    {
+      breakpoint: 1024, // tablets & small laptops
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+      },
+    },
+    {
+      breakpoint: 768, // mobile landscape
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 640, // mobile portrait
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
   };
-
-
 
   return (
     <>
-      <section className="pb-16 px-4 sm:px-12">
+      <section className="pb-16 px-7 sm:px-12">
         <div className="text-center mb-10 relative">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">
             Explore New Arrivals

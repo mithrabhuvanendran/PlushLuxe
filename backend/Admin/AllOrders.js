@@ -6,8 +6,8 @@ const AllOrders = async (req, res) => {
 
     res.send(orders);
   } catch (error) {
-    console.log(error);
-    res.status(500).send("Server error");
+    // console.log(error);
+    res.status(500).send({message: error.message});
   }
 };
 

@@ -17,8 +17,8 @@ const UpdateOrderStatus = async (req, res) => {
     const updatedOrder = await order.save();
     return res.send(updatedOrder);
   } catch (error) {
-    console.log(error);
-    res.status(500).send("Server error");
+    // console.log(error);
+    res.status(500).send({message: error.message});
   }
 };
 

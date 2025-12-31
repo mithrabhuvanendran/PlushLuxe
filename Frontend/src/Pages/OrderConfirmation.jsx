@@ -27,14 +27,14 @@ const OrderConfirmation = () => {
   return (
     <>
     <div className="grid place-items-center">
-      <div className=" w-3/4 p-6 ">
+      <div className="w-full sm:w-11/12 lg:w-3/4 px-2 py-6 sm:p-6 ">
         <h1 className="text-4xl font-bold text-center text-emerald-700 mb-8">
           Thank You for Your Order!
         </h1>
 
         {checkout && (
-          <div className="p-6 rounded-lg border">
-            <div className="flex justify-between mb-20">
+          <div className="p-3 sm:p-6 rounded-lg sm:border sm:border-gray-200">
+            <div className="flex flex-col sm:flex-row sm:justify-between mb-10 sm:mb-20">
               {/* Order Id and date */}
               <div>
                 <h2 className="text-xl font-semibold">
@@ -58,25 +58,25 @@ const OrderConfirmation = () => {
               {checkout.checkoutItems.map((item) => (
                 <div
                   key={item.productId}
-                  className="flex items-center justify-between mb-4"
+                  className="flex flex-col sm:flex-row items-center sm:justify-between mb-10 sm:mb-4"
                 >
-                  <div className="flex items-center gap-2">
+                  <div className="flex flex-col sm:flex-row items-center gap-2">
                     <img
                       src={item.image}
                       alt={item.name}
-                      className="w-16 h-16 object-cover rounded-md mr-4"
+                      className="w-48 h-48 sm:w-16 sm:h-16 object-cover rounded-md sm:mr-4"
                     />
 
                     <div>
                       <h4 className="text-md font-semibold">{item.name}</h4>
-                      <p className="text-sm text-gray-500">
+                      <p className="text-center sm:text-start text-sm text-gray-500">
                         {item.color} | {item.size}
                       </p>
                     </div>
                   </div>
                   <div>
-                    <h2 className="text-md font-semibold">${item.price * item.quantity}</h2>
-                    <p className="text-sm text-gray-500">Qty: {item.quantity}</p>
+                    <h2 className="text-center sm:text-start text-md font-semibold">${item.price * item.quantity}</h2>
+                    <p className="text-center sm:text-start text-sm text-gray-500">Qty: {item.quantity}</p>
                   </div>
                 </div>
               ))}

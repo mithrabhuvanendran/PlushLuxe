@@ -26,12 +26,6 @@ const Register = async (req, res) => {
       password: hashPassword,
     });
 
-    // res.status(201).send({
-    //   msg: "New user registered",
-    //   _id: newUser._id,
-    //   email: newUser.email,
-    // });
-
     // Create JWT Payload
     const payload = { _id: newUser._id, role: newUser.role };
 
@@ -50,9 +44,9 @@ const Register = async (req, res) => {
       },
       token,
     });
-  } catch (err) {
-    console.info(err);
-    return res.status(500).send({ msg: "Internal server error" });
+  } catch (error) {
+    // console.info(err);
+    return res.status(500).send({ msg: error.message });
   }
 };
 

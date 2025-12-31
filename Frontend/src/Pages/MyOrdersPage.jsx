@@ -69,7 +69,7 @@ const MyOrdersPage = () => {
                         {order.orderItems.length}
                       </td>
                       <td className="py-2 px-2 sm:py-4 sm:px-4 text-center">
-                        {order.totalPrice}
+                        ${order.totalPrice}
                       </td>
                       <td className="py-2 px-2 sm:py-4 sm:px-4 text-center">
                         <span
