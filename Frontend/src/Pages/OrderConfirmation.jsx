@@ -75,7 +75,7 @@ const OrderConfirmation = () => {
                     </div>
                   </div>
                   <div>
-                    <h2 className="text-md font-semibold">${item.price}</h2>
+                    <h2 className="text-md font-semibold">${item.price * item.quantity}</h2>
                     <p className="text-sm text-gray-500">Qty: {item.quantity}</p>
                   </div>
                 </div>

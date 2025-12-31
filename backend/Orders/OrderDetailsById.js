@@ -14,7 +14,7 @@ const OrderDetailsById = async (req, res) => {
     // Return the full order details
     res.send(order);
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     res.status(500).send("Server error");
   }
 };

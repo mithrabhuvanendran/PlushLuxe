@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
-import ProductGrid from "./ProductGrid";
+import ProductGrid from "./ProductGrid.jsx";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -23,22 +23,21 @@ const ProductDetails = ({ productId }) => {
   const [isButtonDisabled, setIsButtonDisabled] = useState(false);
 
   const productFetchId = productId || id;
-  console.log(productFetchId);
+  // console.log(productFetchId);
 
   useEffect(() => {
     if (productFetchId) {
       dispatch(fetchProductDetails(productFetchId));
-      dispatch(fetchSimilarProducts(productFetchId ));
+      dispatch(fetchSimilarProducts(productFetchId));
     }
   }, [dispatch, productFetchId]);
 
   useEffect(() => {
     if (selectedProduct?.images?.length > 0) {
-      const imageURL = selectedProduct.images[0].url
+      const imageURL = selectedProduct.images[0].url;
       setMainImage(`${import.meta.env.VITE_URL}${imageURL}`);
     }
   }, [selectedProduct]); // React runs useEffect once after first render and runs only when selectedProduct changes i.e. when a new object is added
-
 
   const handleQuantityChange = (action) => {
     if (action === "plus") setQuantity((prev) => prev + 1);
@@ -60,7 +59,7 @@ const ProductDetails = ({ productId }) => {
         size: selectedSize,
         color: selectedColor,
         guestId,
-        userId: user ? user._id : null
+        userId: user ? user._id : null,
       })
     )
       .then(() => {
@@ -73,7 +72,6 @@ const ProductDetails = ({ productId }) => {
       });
   };
 
-  
   if (loading) {
     return <p>Loading...</p>;
   }
@@ -95,7 +93,9 @@ const ProductDetails = ({ productId }) => {
                     key={index}
                     src={`${import.meta.env.VITE_URL}${image.url}`}
                     alt={image.altText}
-                    onClick={() => setMainImage(`${import.meta.env.VITE_URL}${image.url}`)} // updates the mainImage when clicked
+                    onClick={() =>
+                      setMainImage(`${import.meta.env.VITE_URL}${image.url}`)
+                    } // updates the mainImage when clicked
                     className="w-20 h-20 object-cover rounded-lg cursor-pointer border"
                   />
                 ))}
@@ -118,7 +118,9 @@ const ProductDetails = ({ productId }) => {
                     key={index}
                     src={`${import.meta.env.VITE_URL}${image.url}`}
                     alt={image.altText}
-                    onClick={() => setMainImage(`${import.meta.env.VITE_URL}${image.url}`)}
+                    onClick={() =>
+                      setMainImage(`${import.meta.env.VITE_URL}${image.url}`)
+                    }
                     className="w-20 h-20 object-cover rounded-lg cursor-pointer border"
                   />
                 ))}
@@ -156,7 +158,10 @@ const ProductDetails = ({ productId }) => {
                             : "border-gray-300"
                         }`}
                         style={{
-                          backgroundColor: color.toLocaleLowerCase(),
+                          backgroundColor: color
+                            .split(" ")
+                            .join("")
+                            .toLowerCase(),
                           filter: "brightness(0.5)",
                         }}
                       ></button>
@@ -232,10 +237,16 @@ const ProductDetails = ({ productId }) => {
           </div>
 
           <section className="grid place-items-center pt-12 px-4 sm:px-12 ">
-          <h2 className="text-3xl text-center font-bold mb-4">You May Also Like</h2>
-          <div className="pt-10">
-          <ProductGrid products={similarProducts} loading={loading} error={error}/>
-          </div>
+            <h2 className="text-3xl text-center font-bold mb-4">
+              You May Also Like
+            </h2>
+            <div className="pt-10">
+              <ProductGrid
+                products={similarProducts}
+                loading={loading}
+                error={error}
+              />
+            </div>
           </section>
         </div>
       )}

@@ -203,6 +203,7 @@ const Checkout = () => {
                 <input
                   type="tel"
                   className="w-full p-2 border rounded mb-4"
+                  maxLength="10"
                   {...register("phone", {
                     required: "Enter a number",
                   })}
@@ -250,7 +251,9 @@ const Checkout = () => {
                       <p className="text-gray-500">Color: {product.color}</p>
                     </div>
                   </div>
-                  <p className="text-xl">${product.price?.toLocaleString()}</p>
+                  <p className="text-xl">
+                    ${product.price?.toLocaleString() * product.quantity}
+                  </p>
                 </div>
               ))}
             </div>

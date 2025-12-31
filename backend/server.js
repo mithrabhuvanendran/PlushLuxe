@@ -29,7 +29,7 @@ app.use(
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("Welcome to RABBIT API!");
+  res.send("Welcome to PlushLuxe API!");
 });
 
 // API
