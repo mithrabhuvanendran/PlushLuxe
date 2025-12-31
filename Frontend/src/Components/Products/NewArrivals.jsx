@@ -42,19 +42,10 @@ const NewArrivals = () => {
             Discover the latest styles straight off the runway, freshly added to
             keep your wardrobe on the cutting edge of fashion.
           </p>
-          {/* <div className="absolute right-0 bottom-[-60px] flex gap-3">
-            <button onClick={PrevArrow} className="p-2 rounded border bg-white text-black">
-              <FiChevronLeft className="text-2xl" />
-            </button>
-            <button className="p-2 rounded border bg-white text-black">
-              <FiChevronRight className="text-2xl" />
-            </button>
-          </div> */}
         </div>
 
         {/* Scrollable content */}
         {/* Slick Slider */}
-        {/* <div className="px-10 relative"> */}
         <Slider {...settings}>
           {newArrivals.map((product) => (
             <div
@@ -63,7 +54,7 @@ const NewArrivals = () => {
             >
               <NavLink to={`/product/${product._id}`} className="block">
                 <img
-                  src={`${import.meta.env.VITE_URL}${product.images[0].url}`}
+                  src={product.images[0].url}
                   alt={product.images[0].altText}
                   className="w-full h-[500px] object-cover rounded-lg"
                 />
@@ -75,7 +66,6 @@ const NewArrivals = () => {
             </div>
           ))}
         </Slider>
-        {/* </div> */}
       </section>
     </>
   );

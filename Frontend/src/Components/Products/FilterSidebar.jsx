@@ -21,7 +21,7 @@ const FilterSidebar = () => {
   });
 
   const [priceRange, setPriceRange] = useState([0, 100]);
-  console.info(priceRange);
+  // console.info(priceRange);
 
   const categories = ["Top Wear", "Bottom Wear"];
 
@@ -64,7 +64,7 @@ const FilterSidebar = () => {
 
   useEffect(() => {
     const params = Object.fromEntries([...searchParams]); // if you give this after ?maxPrice=100&size=XS%2CS%2CM in url, it will return an object {maxPrice: 100, size: "XS,S,M"}
-    console.info(params);
+    // console.info(params);
 
     setFilters({
       category: params.category || "",
@@ -101,7 +101,7 @@ const FilterSidebar = () => {
 
   const updateURLParams = (newFilters) => {
     const params = new URLSearchParams() 
-    console.info(params); // Object {}
+    // console.info(params); // Object {}
 
     Object.keys(newFilters).forEach((key) => {
       if(Array.isArray(newFilters[key] && newFilters[key].length > 0 )) {
@@ -267,7 +267,7 @@ const FilterSidebar = () => {
           <div className="flex justify-between items-center text-gray-600 mt-2">
             <span>$0</span>
             <span>${priceRange[1]}
-              {console.info(priceRange[1])}
+              {/* {console.info(priceRange[1])} */}
             </span>
           </div>
         </div>

@@ -38,8 +38,8 @@ const Checkout = () => {
   }, [cart, navigate]);
 
   const handleCreateCheckout = async (data) => {
-    console.log("FORM DATA 👉", data);
-    console.log(cart.products);
+    // console.log("FORM DATA 👉", data);
+    // console.log(cart.products);
     // e.preventDefault();
     // setCheckoutId(123);
     if (cart && cart.products.length > 0) {
@@ -59,7 +59,7 @@ const Checkout = () => {
           totalPrice: cart.totalPrice,
         })
       );
-      console.log(res);
+      // console.log(res);
       if (res.payload && res.payload._id) {
         setCheckoutId(res.payload._id); // set checkout ID if checkout was successful
       }
@@ -241,7 +241,7 @@ const Checkout = () => {
                 >
                   <div className="flex items-start">
                     <img
-                      src={`${import.meta.env.VITE_URL}${product.image}`}
+                      src={product.image}
                       alt={product.name}
                       className="w-20 h-24 object-cover mr-4"
                     />

@@ -18,7 +18,7 @@ const ProductGrid = ({ products, loading, error }) => {
             <div className="bg-white rounded-lg">
               <div className="w-full h-96 mb-2">
                 <img
-                  src={`${import.meta.env.VITE_URL}${product.images[0].url}`}
+                  src={product.images[0].url}
                   className="w-full h-full object-cover rounded-lg"
                 />
               </div>

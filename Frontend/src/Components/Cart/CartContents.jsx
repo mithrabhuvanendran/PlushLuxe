@@ -46,7 +46,7 @@ const CartContents = ({ cart, userId, guestId }) => {
           >
             <div>
               <img
-                src={`${import.meta.env.VITE_URL}${product.image}`}
+                src={product.image}
                 alt=""
                 className="w-20 h-24 object-cover mr-4 rounded"
               />

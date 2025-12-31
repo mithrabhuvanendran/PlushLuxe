@@ -35,7 +35,7 @@ const ProductDetails = ({ productId }) => {
   useEffect(() => {
     if (selectedProduct?.images?.length > 0) {
       const imageURL = selectedProduct.images[0].url;
-      setMainImage(`${import.meta.env.VITE_URL}${imageURL}`);
+      setMainImage(imageURL);
     }
   }, [selectedProduct]); // React runs useEffect once after first render and runs only when selectedProduct changes i.e. when a new object is added
 
@@ -116,10 +116,10 @@ const ProductDetails = ({ productId }) => {
                 {selectedProduct.images.map((image, index) => (
                   <img
                     key={index}
-                    src={`${import.meta.env.VITE_URL}${image.url}`}
+                    src={image.url}
                     alt={image.altText}
                     onClick={() =>
-                      setMainImage(`${import.meta.env.VITE_URL}${image.url}`)
+                      setMainImage(image.url)
                     }
                     className="w-20 h-20 object-cover rounded-lg cursor-pointer border"
                   />

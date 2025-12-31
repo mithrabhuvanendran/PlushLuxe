@@ -5,7 +5,7 @@ import { fetchOrderDetails } from "../redux/thunk/orderThunk";
 
 const OrderDetailsPage = () => {
   const { id } = useParams();
-  console.log(id);
+  // console.log(id);
   // const [orderDetails, setOrderDetails] = useState(null);
   const dispatch = useDispatch()
   const {orderDetails, loading, error} = useSelector((state) => state.orders)
@@ -91,7 +91,7 @@ const OrderDetailsPage = () => {
                     >
                       <td className="py-2 px-4 flex items-center">
                         <img
-                          src={`${import.meta.env.VITE_URL}${item.image}`}
+                          src={item.image}
                           alt={item.name}
                           className="w-12 h-12 object-cover rounded-lg mr-4"
                         />
