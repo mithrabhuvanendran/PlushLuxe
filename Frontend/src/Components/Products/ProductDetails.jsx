@@ -91,10 +91,10 @@ const ProductDetails = ({ productId }) => {
                 {selectedProduct.images.map((image, index) => (
                   <img
                     key={index}
-                    src={`${import.meta.env.VITE_URL}${image.url}`}
+                    src={`${image.url}`}
                     alt={image.altText}
                     onClick={() =>
-                      setMainImage(`${import.meta.env.VITE_URL}${image.url}`)
+                      setMainImage(`${image.url}`)
                     } // updates the mainImage when clicked
                     className="w-20 h-20 object-cover rounded-lg cursor-pointer border"
                   />
